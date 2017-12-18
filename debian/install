@@ -1,0 +1,2 @@
+examples usr/share/fermisurfer
+debian/wrapper/fermisurfer usr/local/bin

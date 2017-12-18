@@ -1,0 +1,6 @@
+fermisurfer (1.10.0-1) unstable; urgency=low
+
+  * Initial release for 1.10-0
+  * Add wrapper as workaround for OpenGL initialization problem: OpenGL Warning: XGetVisualInfo returned 0 visuals for ...
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Mon, 18 Dec 2017 10:26:45 +0900
