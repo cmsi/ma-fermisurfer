@@ -15,3 +15,8 @@ cd $(dirname $BUILD_DIR)
 cp -p $DATA_DIR/${PACKAGE}_${VERSION_BASE}.orig.tar.gz .
 tar zxf ${PACKAGE}_${VERSION_BASE}.orig.tar.gz
 cp -frp $SCRIPT_DIR/debian $BUILD_DIR
+
+cd $BUILD_DIR
+sudo apt-get update
+sudo apt-get -y upgrade
+dpkg-checkbuilddeps 2>&1 | sed 's/dpkg-checkbuilddeps.*dependencies: //' | xargs sudo apt-get -y install
