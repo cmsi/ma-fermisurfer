@@ -2,7 +2,7 @@ Source: fermisurfer
 Section: scientific
 Priority: extra
 Maintainer: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev, freeglut3-dev
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, freeglut3-dev, libwxgtk3.0-dev
 Standards-Version: 3.9.3
 Homepage: http://fermisurfer.osdn.jp
 

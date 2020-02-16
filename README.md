@@ -8,7 +8,7 @@ This application displays Fermi surfaces colored as a function of an arbitrary s
 
 ### Version
 
-* 1.10.1-1 (19 Feb 2019)
+* see debian/changelog
  
 ### Provided packages
 
@@ -16,9 +16,11 @@ This application displays Fermi surfaces colored as a function of an arbitrary s
 
 ### Target distributions and architectures
 
+* Debian buster (amd64, i386)
 * Debian stretch (amd64, i386)
 * Debian jessie (amd64, i386)
-* Debian wheezy (amd64, i386)
+* Ubuntu bionic (amd64)
+* Ubuntu xenial (amd64)
 
 ### For users
 
@@ -37,14 +39,14 @@ This application displays Fermi surfaces colored as a function of an arbitrary s
 * How to prepare original source tarball
 
   ```
-  VERSION=1.10.1
-  FERMISURFER_DIR=69171
-  wget https://ja.osdn.net/projects/fermisurfer/downloads/$FERMISURFER_DIR/fermisurfer-$VERSION.zip
-  unzip fermisurfer-$VERSION.zip
+  VERSION=2.0.0
+  FERMISURFER_DIR=71272
+  wget https://ja.osdn.net/projects/fermisurfer/downloads/$FERMISURFER_DIR/fermisurfer-$VERSION.tar.gz
+  tar zxvf fermisurfer-$VERSION.tar.gz
   mv -f fermisurfer-$VERSION fermisurfer_$VERSION
   chmod -R go-w fermisurfer_$VERSION
   tar zcvf fermisurfer_$VERSION.orig.tar.gz fermisurfer_$VERSION
-  rm -rf fermisurfer-$VERSION.zip fermisurfer_$VERSION
+  rm -rf fermisurfer-$VERSION.tar.gz fermisurfer_$VERSION
   ```
 
 ### Links

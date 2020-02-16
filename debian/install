@@ -1,2 +1,4 @@
 examples usr/share/fermisurfer
 debian/wrapper/fermisurfer usr/local/bin
+doc/en/_build/latex/fermisurfer.pdf usr/share/fermisurfer/manual-en
+doc/ja/_build/latex/fermisurfer.pdf usr/share/fermisurfer/manual-ja
