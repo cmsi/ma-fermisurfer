@@ -1,3 +1,9 @@
+fermisurfer (2.1.0-1) unstable; urgency=low
+
+  * New upstream version 2.1.0
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Fri, 11 Mar 2022 00:00:23 +0900
+
 fermisurfer (2.0.0-1) unstable; urgency=low
 
   * New upstream version 2.0.0
