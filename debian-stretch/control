@@ -1,0 +1,17 @@
+Source: fermisurfer
+Section: scientific
+Priority: extra
+Maintainer: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, freeglut3-dev, libwxgtk3.0-dev
+Standards-Version: 3.9.3
+Homepage: http://fermisurfer.osdn.jp
+
+Package: fermisurfer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: FermiSurfer: an application for visualization of Fermi surfaces. 
+ This application displays Fermi surfaces colored as a function of an arbitrary
+ scalar quantities such as magnitude of Fermi velocities and superconducting gap.
+ It only requires a minimum set of data to draw Fermi surfaces. FermiSurfer
+ provides a simple graphical user interface; the user can smoothly turn on/off
+ the stereogram, nodal-lines, etc.
